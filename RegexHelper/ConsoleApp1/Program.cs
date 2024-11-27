@@ -1,36 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
-using System.Linq;
-using System.Numerics;
+
 using System.Text.RegularExpressions;
 
 var random = new Random();
 
 Console.WriteLine(GetString(3));
 
-Vector<float> factor = new Vector<float>(0.5f);
-var s = new Sajad[10];
 
-var s2 = new Sajad_SOA();
-s2.position[1]
-
-public struct Sajad
-{
-    public float position;
-    public float rotation;
-    public float sclae;
-    public float a;
-    public float b;
-}
-
-public struct Sajad_SOA
-{
-    public float[] position;
-    public float[] rotation;
-    public float[] sclae;
-    public float[] a;
-    public float[] b;
-}
 
 
 //Write a function solution that, given an integer N, returns a string of length N containing as many different lower-case
